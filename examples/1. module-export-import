@@ -1,0 +1,53 @@
+1.create calculator.js
+
+let calculator = {
+	add(x,y){
+		return x + y;
+	},
+	subtract(x,y){
+		return x - y;
+	},
+	multiply(x,y){
+		return x * y;
+	},
+	divide(x,y){
+		return x / y;
+	}
+};
+console.log(`[@calculator] calculator -> `, calculator);
+module.exports = calculator;
+
+******************************************************************************************************
+
+2.create calculatorClient.js
+let calculator = require('./calculator');
+let x = 100, y = 50;
+console.log(calculator.add(x,y));
+console.log(calculator.subtract(x,y));
+console.log(calculator.multiply(x,y));
+console.log(calculator.divide(x,y));
+
+
+******************************************************************************************************
+compile and run
+make sure node installed
+
+1.compile calculator.js
+>>>>>$ node calculator.js
+
+[@calculator] calculator ->  { add: [Function: add],
+  subtract: [Function: subtract],
+  multiply: [Function: multiply],
+  divide: [Function: divide] }
+
+2.compile calculatorClient.js
+>>>>>>$ node calculatorClient.js
+[@calculator] calculator ->  { add: [Function: add],
+  subtract: [Function: subtract],
+  multiply: [Function: multiply],
+  divide: [Function: divide] }
+150
+50
+5000
+2
+******************************************************************************************************
