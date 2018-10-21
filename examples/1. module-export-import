@@ -35,17 +35,10 @@ make sure node installed
 1.compile calculator.js
 >>>>>$ node calculator.js
 
-[@calculator] calculator ->  { add: [Function: add],
-  subtract: [Function: subtract],
-  multiply: [Function: multiply],
-  divide: [Function: divide] }
-
 2.compile calculatorClient.js
 >>>>>>$ node calculatorClient.js
-[@calculator] calculator ->  { add: [Function: add],
-  subtract: [Function: subtract],
-  multiply: [Function: multiply],
-  divide: [Function: divide] }
+
+output : 
 150
 50
 5000
