@@ -4,3 +4,7 @@ example took from
 
 
 github : https://github.com/daspinola/video-stream-sample
+
+
+
+http://localhost:3000/video
