@@ -13,3 +13,13 @@ created video folder
 
 6. run : npm install and npm start
 
+* make sure you have create create folde assets/sample.4
+
+
+folder structure : 
+
+      + server.js
+      + index.htm
+      + package.json
+      + assets
+        + sample.mp4
