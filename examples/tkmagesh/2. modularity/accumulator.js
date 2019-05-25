@@ -1,3 +1,5 @@
+// exporting object (accumulator)
+
 function accumulatorFactory(defaultResult){
     var result = defaultResult;
     var accumulator = {
@@ -21,4 +23,3 @@ function accumulatorFactory(defaultResult){
     return accumulator;
 }
 module.exports = accumulatorFactory;
-// exporting object (accumulator)
