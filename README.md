@@ -21,6 +21,10 @@
     
 ##### link for creating node project
             https://www.taniarascia.com/how-to-install-and-use-node-js-and-npm-mac-and-windows/
+            
+#### todo
+
+            https://github.com/goldbergyoni/nodebestpractices
 
 
 
