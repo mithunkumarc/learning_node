@@ -1,3 +1,6 @@
+#### also can be said as exporting a Default Value(getName function)
+
+
 user.js
 
             const getName = () => {
