@@ -44,3 +44,12 @@ At the end of the call, we chain the end() method.
 
 In most cases it is a better choice to use one of the many libraries available on NPM.  
 Especially one that supports promises and async/await.  
+
+
+
+### Http Response
+
+            response should send header info and body
+
+            1. header info : response.writeHead(status_code, {"content-type","text/html"}
+            2. body : response.write("<h1>hello world</h1>");
