@@ -53,3 +53,4 @@ Especially one that supports promises and async/await.
 
             1. header info : response.writeHead(status_code, {"content-type","text/html"}
             2. body : response.write("<h1>hello world</h1>");
+            3. end the response : response.end();
