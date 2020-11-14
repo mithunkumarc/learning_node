@@ -33,6 +33,7 @@ package.json
 
 
 output : 
+
         install express and nodemon dependencies
         in linux : npx nodemon index.js
-        in windows : nodemon index.js
+        in windows : npx nodemon index.js
