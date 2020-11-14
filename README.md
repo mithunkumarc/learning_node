@@ -44,3 +44,8 @@
 
                   when to use node : 
                   data intensive and real time apps(web app)
+
+
+#### use nodemon for reloading node project
+
+            for linux : npx nodemon index.js 
