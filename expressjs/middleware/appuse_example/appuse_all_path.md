@@ -24,6 +24,8 @@
 
 
                 // this will run validate user on ALL path, all http methods
+                // app.use is middleware
+                // below app.use is not path specific, so it runs middlewares validateuser and welcomeuser on all path req
                 app.use(validateUser, welcomeUser); // check node console, both callback will run as it is not path specific
 
 
