@@ -1,3 +1,5 @@
+#### declare app.use before corresponding(same path) request handlers
+
 #### app use can be used like interceptors / request filters
 
 > app.use mention list of calllback(middleware function to run) when specific path matches
