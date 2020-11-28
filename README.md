@@ -49,3 +49,8 @@
 #### use nodemon for reloading node project
 
             for linux : npx nodemon index.js 
+
+
+#### practice 
+
+            https://github.com/bezkoder/node-js-tutorials
