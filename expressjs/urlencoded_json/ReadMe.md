@@ -21,3 +21,7 @@ Below two methods are important to read body requests parameters
 #### express.static('foldername')
 
         will make static files(html/css/images..) avaialble/accessed from client side
+        
+to run app :          
+npm install  
+npx nodemon index.js
