@@ -1,0 +1,23 @@
+// importing modules
+const express = require('express');
+const app = express();
+const helmet = require('helmet')
+
+// middlewares
+app.use(helmet())
+
+// builtin middlewares
+// best practice to include these
+app.use(express.static('public'));
+app.use(express.json());
+app.use(express.urlencoded({extended:false}));
+
+const user = {name:"vish", city:"munnekola"}
+
+// request methods
+app.get('/info', (req, res) => {
+	res.json(user)
+})
+
+// start serverat 3000
+app.listen(3000);
