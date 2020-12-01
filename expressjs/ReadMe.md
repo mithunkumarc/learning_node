@@ -9,3 +9,14 @@ express offers main two things
 
         req --- middleware - res
         middleware : a function which has access to request, response and next 
+
+
+#### structure of express , order is important:
+
+        imports/require
+
+        middlewares/builtin/user defined
+
+        http methods/get post put del
+
+        listen server/ start server under port
