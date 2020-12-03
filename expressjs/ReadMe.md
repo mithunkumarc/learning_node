@@ -23,3 +23,10 @@ express offers main two things
 
 
 #### https://expressjs.com/en/api.html  : find all api methods/state
+
+
+
+#### todo
+
+        use of next
+        app.param()
