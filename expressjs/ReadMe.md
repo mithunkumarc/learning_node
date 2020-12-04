@@ -24,7 +24,12 @@ express offers main two things
 
 #### https://expressjs.com/en/api.html  : find all api methods/state
 
+#### request methods
 
+        app.get(url,[callback1, callback2...] : 
+        each callback has req,res,next arguments
+        where next is a function which call next callback, for example : callback1 next() will call callback2
+        
 
 #### todo
 
