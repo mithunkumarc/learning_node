@@ -83,3 +83,8 @@ if request method handling req url with parameters, before request method gets e
         app.get("/admin/:id", (req, res) => {
                 console.log('admin id');
         })
+
+user / applications : 
+
+        The app.param() function is used to add the callback triggers to route parameters. 
+        It is commonly used to check for the existence of the data requested related to the route parameter.
