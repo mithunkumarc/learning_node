@@ -65,3 +65,21 @@ if request method handling req url with parameters, before request method gets e
           console.log("second match");
           res.send("response end here");
         })
+        
+#### 4. multiple req methods with same parameter
+
+        // user and admin path share same parameter id
+        // http://localhost:3000/admin/34, http://localhost:3000/user/34
+        // above both url triggers this 
+        app.param('id', (req, res, next, value) => {
+                console.log("id param : ",value);
+                next(); // next request mehtod depends of path admin or user
+        })
+
+        app.get("/user/:id", (req, res) => {
+                console.log("user id");
+        })
+
+        app.get("/admin/:id", (req, res) => {
+                console.log('admin id');
+        })
