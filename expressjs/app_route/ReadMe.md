@@ -1,4 +1,16 @@
-You can create chainable route handlers for a route path by using app.route(). 
+helps in modularizing the application depending on routes/path.
+
+for example : 
+
+1. /book/xxx handled by one route mini app
+
+        app.route('/book').get().post().put()..                 // chain of request methods
+        
+2. /users/xxx hanlded by another route minit app
+
+        app.route('/users').get().post().put()..
+        
+You can create chainable route handlers for a route path by using app.route().  
 Because the path is specified at a single location, creating modular routes is helpful, as is reducing redundancy and typos. 
 
 Here is an example of chained route handlers that are defined by using app.route().
