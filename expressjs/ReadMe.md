@@ -34,5 +34,5 @@ express offers main two things
 #### todo
 
 
-        app.param()
+        types of middlware
         express router : https://expressjs.com/en/guide/routing.html
