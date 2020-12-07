@@ -1,11 +1,19 @@
 #### express generator creates project structore: like spring boot
 
-#### install
+#### install/ create project
 
-        npm install express-generator
-        express projectname viewengine="your choice"    
+        make sure node and npm installed
+        
+        old
+        //npm install express-generator
+        //express projectname viewengine="your choice"
+        
+        new
+        create folder projectname
+        projectname> npx express-generator  
         projectname> npm install
-
+        projectname> npx nodemon index.js
+        
         note: you might have to add helmet lib youself
         
 #### entry file and port number
