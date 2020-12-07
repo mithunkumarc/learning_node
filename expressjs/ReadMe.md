@@ -12,9 +12,9 @@ express offers main two things
 
 #### project 
 
-        app level : index.js
-        module 1 : bird.js (created using express router) router level
-        module 2 : animal.js (created using express router) router level
+        app level : index.js : example : to handle request , use :  app.get()
+        module 1 : bird.js (created using express router) router level : example : handle req : router.get()
+        module 2 : animal.js (created using express router) router level : hadle req using : router.get()
 
 #### structure of express , order is important:
 
