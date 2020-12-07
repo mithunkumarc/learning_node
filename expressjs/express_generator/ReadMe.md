@@ -20,5 +20,13 @@
 
       entry point file : bin/www : here you can see the port on which app is running
       
+#### setting port number
+        
+        pass from command line or set directly in bin/www
+        
+#### express uses view engine
+
+        use your choice of view engine while creating express project (express-generator command)
+        
       
      
