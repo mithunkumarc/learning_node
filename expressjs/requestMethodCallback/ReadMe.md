@@ -1,9 +1,9 @@
 #### request methods in express same as in node
 
-        get
-        put 
-        post
-        del
+        app.get(path, middleware_callback1, middlware_callback2, ..)
+        app.put(path, middleware_callback1, middlware_callback2, ..)
+        app.post(path, middleware_callback1, middlware_callback2, ..)
+        app.del(path, middleware_callback1, middlware_callback2, ..)
         
 #### callback function : 
 
