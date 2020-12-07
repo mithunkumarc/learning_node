@@ -15,7 +15,18 @@
         projectname> npx nodemon
         
         note: you might have to add helmet lib youself
-        
+
+#### project structure
+
+        Project
+        + -- bin                : bin/www : create server ,
+        + -- node_modules
+        + -- public             : html/css/static files        
+        + -- routes             : modules/mini app, router request methods, router level middleware
+        + -- views
+             app.js             : app level middleware/app level imports, app level request methods
+             package.json
+
 #### entry file and port number
 
       entry point file : bin/www : here you can see the port on which app is running
