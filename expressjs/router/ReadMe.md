@@ -11,6 +11,7 @@ example : bird and animal are like modules or mini app handles specific urls rel
         animal.js : animal.js handles all request related to /animal/xxx
         index.js  : main file/entry point, imports bird.js and animal.js
 
+#### request methods and middleware usage
 
 index.js
 
@@ -20,9 +21,15 @@ index.js
         app.put()
         app.del()
         
+        middleware:
+        app.use()
+        
 bird.js : router module
 
         router.get()
         router.post()
         router.put()
         router.del()
+        
+        middleware:
+        router.user()
