@@ -12,7 +12,7 @@
         create folder projectname
         projectname> npx express-generator  
         projectname> npm install
-        projectname> npx nodemon index.js
+        projectname> npx nodemon
         
         note: you might have to add helmet lib youself
         
