@@ -20,6 +20,12 @@
 
       entry point file : bin/www : here you can see the port on which app is running
       
+      package.json :
+      
+        "scripts": {
+                "start": "node ./bin/www"
+        },
+      
 #### setting port number
         
         pass from command line or set directly in bin/www
