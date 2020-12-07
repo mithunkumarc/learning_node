@@ -10,6 +10,11 @@ express offers main two things
         req --- middleware - res
         middleware : a function which has access to request, response and next 
 
+#### project 
+
+        app level : index.js
+        module 1 : bird.js (created using express router) router level
+        module 2 : animal.js (created using express router) router level
 
 #### structure of express , order is important:
 
