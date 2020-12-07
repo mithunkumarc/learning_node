@@ -5,7 +5,7 @@
         app.post(path, middleware_callback1, middlware_callback2, ..)
         app.del(path, middleware_callback1, middlware_callback2, ..)
         
-#### callback function : 
+#### callback function or middleware callback: 
 
         callbacks are functions used with request method to handle request and send response
 
