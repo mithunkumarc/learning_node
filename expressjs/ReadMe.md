@@ -26,6 +26,18 @@ express offers main two things
 
         listen server/ start server under port
 
+#### best practice to include middleware
+
+
+
+        const express = require('express');
+        const app = express();
+        const helmet = require('helmet');       // security
+        app.use(helmet());                      // security
+        app.use(express.urlencoded());          // parse req body
+        app.use(express.json());                // req or response obj to json
+        app.use(express.static('public'));      // makes html, css other static files accessible(inside public folder)
+
 
 #### https://expressjs.com/en/api.html  : find all api methods/state
 
