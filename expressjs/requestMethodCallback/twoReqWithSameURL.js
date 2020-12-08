@@ -1,5 +1,6 @@
 /*
   if two request method has same url, first one will get executed first
+  read: https://github.com/mithunkumarc/learning_node/blob/master/expressjs/requestMethodCallback/twoReqWithSameURL.md
 */
 
 const express = require('express')
