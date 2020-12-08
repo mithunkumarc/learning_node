@@ -53,4 +53,5 @@ express offers main two things
 
         next route
         express generator
+        types of middleware
         
