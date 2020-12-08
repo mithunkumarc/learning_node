@@ -9,6 +9,7 @@ const app = express()
 
 app.get("/hello", (req, res, next) => {
 	console.log("first"); // this will be printed first
+	// if you skip calling next(), response ends here, req not passed to next req method with same url
 	next(); // request will handover to next request method with same url
 });
 
