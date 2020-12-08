@@ -17,4 +17,11 @@ https://expressjs.com/en/guide/using-middleware.html
     it must call next() to pass control to the next middleware function. 
     Otherwise, the request will be left hanging.
     
+#### Express can use following types of middlware
+
+1. Application-level middleware
+2. Router-level middleware
+3. Error-handling middleware
+4. Built-in middleware
+5. Third-party middleware
     
