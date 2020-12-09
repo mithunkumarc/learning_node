@@ -36,7 +36,7 @@ Application level middleware
         }) 
  
  
-#### 5 multiple middlwares can be declared for same path, executin of order depends on declartion order
+#### 5 multiple middlwares can be declared for same path, execution of order depends on declartion order
  
         app.use("/hello", (req, res, next) => {
           console.log("one");
