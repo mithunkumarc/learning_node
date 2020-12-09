@@ -51,7 +51,6 @@ express offers main two things
 #### todo
 
 
-        next route
-        express generator
-        types of middleware
+        
+        tutorials point examples
         
