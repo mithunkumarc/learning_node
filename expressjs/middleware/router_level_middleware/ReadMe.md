@@ -7,7 +7,7 @@
 #### bird.js : handles bird specific url/path
 
         // a middleware function with no mount path. This code is executed for every request to the router
-        // for path specifi : router.use("/path", (req, res, next) => {}) 
+        // for path specific  : router.use("/path", (req, res, next) => {}) 
         router.use(function (req, res, next) {
           console.log('router Time from bird router:', Date.now())
           next()
