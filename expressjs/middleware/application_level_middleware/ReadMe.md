@@ -16,7 +16,8 @@ Application level middleware
   
 
 #### 3. path specific middleware
-
+      
+      // this middleware gets triggered only for path /hello
       app.use("/hello", (req, res, next) => {
         next(); //pass req to next callback or next request method
         // as there is no next callback, req goes to req method
