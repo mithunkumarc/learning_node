@@ -2,7 +2,7 @@ creating simple session
 
         const express = require('express');
         const app = express();
-        // express session uses cookie parser
+        // for parsing cookie, not mandatory for express-session
         const cookieParser = require('cookie-parser');
         const session = require('express-session');
 
