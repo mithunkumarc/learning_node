@@ -5,12 +5,15 @@
   steps to test:
   1. set session data
   localhost:3000/name/rahul
+  set username as rahul
 
   2. read session data
   localhost:3000/home_page
+  read username, it should return rahul
   
   3. delete session data
   localhost:3000/logout
+  username will be cleared
 
   4. test again whether session data is deleted
   localhost:3000/home_page
