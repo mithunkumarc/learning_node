@@ -7,6 +7,17 @@
 
 https://www.geeksforgeeks.org/session-management-using-express-session-module-in-node-js/
 
+#### express session store
+
+	by default express-sessin uses inmemory, session data lost when server is restarted.
+	so use third party dbs to store use defined memory to store session.
+	read : https://www.npmjs.com/package/connect-mongodb-session
+	read: Compatible Session Stores from npm express-session
+	
+	If you don't supply express-session with a storage mechanism, then it just uses a lightweight memory store. 
+	Thus, it is not persisted across server restarts.
+
+
 ### options
 
 ####	resave:
@@ -30,3 +41,4 @@ https://www.geeksforgeeks.org/session-management-using-express-session-module-in
 	This can be either a string for a single secret, or an array of multiple secrets. 
 	If an array of secrets is provided, only the first element will be used to sign the session ID cookie, 
 	while all the elements will be considered when verifying the signature in requests.
+	encrypting session data
