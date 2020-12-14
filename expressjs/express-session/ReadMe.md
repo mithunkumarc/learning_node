@@ -1,4 +1,7 @@
 #### express-session helps to manage session
+
+#### generally session data is maintained in the session cookie, session cookie expire leads to loss of session data
+
 #### uses cookie parser
 
 
