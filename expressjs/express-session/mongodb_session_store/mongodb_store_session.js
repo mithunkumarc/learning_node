@@ -15,6 +15,8 @@
   check local mongodb : connect_mongodb_session_test/mySessions
   run : http://localhost:3000/
   sessions will be store in mongodb
+  
+  source : https://www.npmjs.com/package/connect-mongodb-session
 
 */
 
