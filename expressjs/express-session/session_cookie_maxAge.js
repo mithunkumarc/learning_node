@@ -2,6 +2,7 @@
 session data are store in cookie cookie
 when session cookie is expired, session data also lost
 cookie maxAge takes in milliseconds
+if there is not maxAge for cookie is set, then session cookie will end when session ends(browser exits)
 
 steps to test this example
 
