@@ -35,6 +35,7 @@ app.use(session({
 
 
 // localhost:3000/name/rahul
+// set username as rahul
 app.get('/name/:username', (req, res) => {
 	console.log(req.params.username);
 	req.session['username'] = req.params.username;
@@ -42,6 +43,7 @@ app.get('/name/:username', (req, res) => {
 })
 
 // localhost:3000/home_page
+// reading username
 app.get("/home_page", (req, res) => {
 	if(!req.session.username) {
 		req.session.username = 'user';
