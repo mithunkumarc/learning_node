@@ -1,4 +1,6 @@
 /*
+  Example: implemention own session store
+  
   run node app: npx nodemon index.js
   
   "dependencies": {
