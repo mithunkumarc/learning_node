@@ -14,3 +14,6 @@ source : https://github.com/BeardScript/LocalPassportAuth
         username: jay password: jay
 
         username: roy password: roy
+
+
+#### this example only for authentication, for authorization/accessing other pages/resources use express-session
