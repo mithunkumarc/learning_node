@@ -1,6 +1,14 @@
-#### for authentication we can use third party like google, facebook, github, etc
 
-#### steps: read Auth Server and Resource Server as same third party(google, facebook, github...)
+### Types of Authentication
+
+#### 1. JWT based authentication
+
+
+#### 2. session based authentication
+
+        for authentication we can use third party like google, facebook, github, etc
+
+#### session based authentication steps: read Auth Server and Resource Server as same third party(google, facebook, github...)
 
 1. user sends credentials to Auth server third party first
 
