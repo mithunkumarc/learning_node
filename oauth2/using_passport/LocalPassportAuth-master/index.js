@@ -96,7 +96,8 @@ app.get('/user',
 
 
 /* REGISTER SOME USERS */
-
-// UserDetails.register({username:'paul', active: false}, 'paul');
-// UserDetails.register({username:'jay', active: false}, 'jay');
-// UserDetails.register({username:'roy', active: false}, 'roy');
+// run only once below code for first time, next time comment it
+// make sure mongodb is installed
+UserDetails.register({username:'paul', active: false}, 'paul');
+UserDetails.register({username:'jay', active: false}, 'jay');
+UserDetails.register({username:'roy', active: false}, 'roy');
