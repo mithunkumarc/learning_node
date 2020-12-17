@@ -1,13 +1,14 @@
-# NodeJs-Passport-Authentication
+# NodeJs-Passport-Authentication : facebook
+
 A simple Node JS API for user authentication using Passport.
 
-## Getting Started
-1. Clone the repo:
+              npm install
+              npm start
 
-       git clone https://github.com/Felistas/NodeJs-Passport-Authentication.git
+              make sure you have created facebook app id, secret key and updated new platform website URL(our APP)
 
-2. Navigate to `NodeJs-Passport-Authentication` folder then run `npm install` to install the dependancies required to have the API up and running
 
-3. Run `npm start` in order to run the API
+in case project doesn't run refer :
 
+       source : https://www.twilio.com/blog/facebook-oauth-login-node-js-app-passport-js
 
