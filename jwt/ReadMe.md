@@ -28,6 +28,12 @@ https://stackoverflow.com/questions/34329280/node-js-express-js-jwt-how-to-check
 
 https://stackoverflow.com/questions/45990451/how-to-silently-refresh-expired-jwt-token-with-oauth2
 
+#### logout
+
+        remove refreshtoken from server side memory  
+        remove accesstoken from local memory from client sid
+
+https://stackoverflow.com/questions/37959945/how-to-destroy-jwt-tokens-on-logout
 
 some shortcuts used in jwt
 
