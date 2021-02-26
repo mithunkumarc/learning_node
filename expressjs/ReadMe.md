@@ -1,5 +1,17 @@
 JustExpress course link : https://github.com/robertbunch/justExpress
 
+#### Note : 
+
+        single request method can have multiple callback, 
+        execution order is as they appear in file
+        app.get("/welcome", (req, rest, next) => { //first_callback
+                //..handle
+                next();// pass req to next callback
+        });
+        app.get("/welcome", (req, res) => { // second callback
+                //..
+        });
+
 #### Find examples : 
 
 https://expressjs.com/en/starter/examples.html
