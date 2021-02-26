@@ -1,3 +1,24 @@
+#### equavalent to normal request method, but app.route allows us to handle at one place(duplcates could be avoided)
+
+                app.route('/book')
+                  .get(function (req, res) {
+                    res.send('Get a random book')
+                  })
+                  .post(function (req, res) {
+                    res.send('Add a book')
+                  })
+                  .put(function (req, res) {
+                    res.send('Update the book')
+                  })
+
+                //above equavalent to:
+                
+                app.get("/book",(req,res) => {});
+                app.post("/book",(req,res) => {});
+                app.put("/book",(req,res) => {});
+                
+
+
 helps in modularizing the application depending on routes/path.
 
 for example : 
