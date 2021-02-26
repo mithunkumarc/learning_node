@@ -1,3 +1,17 @@
+#### always use app.use(middleware/mounting_rounter) before request method handled(app.get/post/put/del())
+
+            // using middleware before request method app.get()
+            app.use("/", (req, res, next) => {
+              console.log("hello middleware");
+              //next()// for next middleware
+            });
+
+            // handle request method after middleware loaded
+            app.get('/', (req, res) => {
+              res.send('Hello World!')
+            })
+
+
 
 Documentation : important :   
 
