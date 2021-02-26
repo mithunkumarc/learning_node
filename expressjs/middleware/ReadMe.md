@@ -11,6 +11,8 @@
               res.send('Hello World!')
             })
 
+            // or load(app.use) all middleware/router in entry file server.js
+            > node server.js
 
 
 Documentation : important :   
