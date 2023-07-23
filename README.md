@@ -50,6 +50,9 @@
 
             for linux : npx nodemon index.js 
 
+#### best practice
+
+            https://www.educative.io/answers/how-to-use-the-nodejs-httpserverresponsestatuscode-property
 
 #### practice 
 
