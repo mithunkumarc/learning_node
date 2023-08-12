@@ -1,3 +1,10 @@
+#### installing node ubuntu
+
+      https://www.digitalocean.com/community/tutorials/install-uninstall-nodejs-ubuntu
+      * note : check LTS ppa link
+      https://github.com/nodesource/distributions
+
+
 ###### node : node is not a framework, node is an run time env for js
       cross platfrom
       opensource
