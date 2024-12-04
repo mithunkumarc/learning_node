@@ -64,3 +64,8 @@
 #### practice 
 
             https://github.com/bezkoder/node-js-tutorials
+
+
+#### nvm commands
+
+            https://gist.github.com/chranderson/b0a02781c232f170db634b40c97ff455
